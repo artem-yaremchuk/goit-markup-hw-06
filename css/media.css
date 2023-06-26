@@ -1,0 +1,110 @@
+
+@media screen and (min-width: 428px) {
+    .container {
+        max-width: 428px;
+        padding-left: 16px;
+        padding-right: 16px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+}
+
+@media screen and (min-width: 768px) {
+    .container {
+        max-width: 768px;
+    }
+    
+    .benefits-list {
+        gap: 72px 24px;
+    }
+
+    .benefits-item {
+        width: calc((100% - 24px) / 2);
+    }
+
+    .benefits-item-subtitle {
+        text-align: unset;
+    }
+
+    .team-list {
+        gap: 64px 24px;
+    }
+
+    .customers-list {
+        gap: 72px 24px;
+    }
+
+    .customers-item {
+        width: calc((552px - 48px)/3);
+    }
+}
+
+@media screen and (min-width: 1158px) {
+    .container {
+      max-width: 1158px;
+      padding-left: 15px;
+      padding-right: 15px;
+    }
+
+    .benefits {
+        padding-top: 120px;
+        padding-bottom: 120px;
+    }
+
+    .benefits-list {
+        flex-wrap: unset;
+        gap: 24px;
+    }
+
+    .benefits-item-block {
+        width: 264px;
+        height: 112px;
+        background-color: #F4F4FD;
+        border-radius: 4px;
+        margin-bottom: 8px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+     }
+    
+     .benefits-item {
+        width: calc((100% - 72px/4));
+    }
+
+    .products {
+        display: unset;
+        padding-bottom: 120px;
+    }
+
+    .team {
+        padding-top: 120px;
+        padding-bottom: 120px;
+    }
+
+    .team-list {
+        flex-wrap: unset;
+        gap: 24px;
+    }
+
+    .team-item {
+        width: calc((100% - 72px)/4);
+        /*працює і без формули*/
+    }
+
+    .customers {
+        padding-top: 120px;
+        padding-bottom: 120px;
+    }
+     
+    .customers-list {
+        flex-wrap: unset;
+        gap: 24px;
+    }
+    
+    .customers-item {
+        width: calc((100% - 120px)/6);
+    }
+  }
+
+
+
