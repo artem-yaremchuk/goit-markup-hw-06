@@ -150,6 +150,7 @@
 
     .footer-container {
         padding: 97.5px 164px 96px 108px;
+        justify-content: unset;
     }
 
     .footer-logo-text {
@@ -314,7 +315,6 @@
         gap: unset;
         padding: 100px 15px 100px 15px;
         align-items: baseline;
-        justify-content: unset;
     }
 
     .footer-logo-text-soc {
@@ -336,6 +336,11 @@
 
     .footer-subscribe-form {
         margin-left: 80px;
+        width: unset;
+    }
+
+    .footer-form {
+        width: unset;
     }
 
     .modal {
