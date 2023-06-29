@@ -563,6 +563,12 @@ img {
     justify-content: center;
 }
 
+.footer-logo-text-soc {
+    display: flex;
+    flex-direction: column;
+    gap: 72px;
+}
+
 .footer-logo-text {
     /*margin-right: 120px;*/
     display: flex;
@@ -647,8 +653,8 @@ img {
     /*margin-left: 80px;*/
     display: flex;
     flex-direction: column;
-    gap: 16px;
     align-items: center;
+    width: 100%;
 }
 
 /*.footer-form {
@@ -656,6 +662,9 @@ img {
     gap: 24px;
 }*/
 
+.footer-form {
+    width: 100%;
+}
 
 .footer-input {
     /*width: 264px;*/
