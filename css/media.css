@@ -9,6 +9,12 @@
     }
 }
 
+@media screen and (max-width: 427px) {
+    .mob-soc-list {
+        gap: 24px;
+    }
+}
+
 @media screen and (min-width: 768px) {
     .container {
         max-width: 768px;
@@ -141,13 +147,15 @@
         width: calc((100% - 48px)/3);
     }
 
+    .footer-container {
+        padding: 97.5px 164px 96px 108px;
+    }
+
     .modal {
         width: 408px;
         padding: 72px 25px 24px 23px;
     }
 }
-
-
 
 @media screen and (min-width: 1158px) {
     .container {
