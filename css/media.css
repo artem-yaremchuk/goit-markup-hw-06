@@ -13,6 +13,14 @@
     .mob-soc-list {
         gap: 24px;
     }
+
+    .mob-address-link-1 {
+        font-size: 26px;
+        }
+
+    .modal {
+        width: 300px;
+    }
 }
 
 @media screen and (min-width: 768px) {
@@ -82,8 +90,9 @@
     }
     
     .header-address-link {
-        line-height: 1.5;
-        letter-spacing: 0.02em;
+        font-size: 12px;
+        line-height: 1.2;
+        letter-spacing: 0.04em;
         color: var(--main-text-color);
         transition: color var(--transition);
     }
@@ -149,7 +158,7 @@
     }
 
     .footer-container {
-        padding: 97.5px 164px 96px 108px;
+        width: 584px;
         justify-content: unset;
     }
 
@@ -207,6 +216,15 @@
         gap: 40px;
     }
 
+     
+    .header-address-link {
+        font-size: 16px;
+        line-height: 1.5;
+        letter-spacing: 0.02em;
+        color: var(--main-text-color);
+        transition: color var(--transition);
+    }
+
     .hero {
         background-image: linear-gradient(
             rgba(46, 47, 66, 0.7),
@@ -214,6 +232,8 @@
             ),
             url(../images/people-office.jpg);
         max-width: 1440px;
+        padding-top: 188px;
+        padding-bottom: 188px;
     }
 
     @media (min-device-pixel-ratio: 2),
@@ -313,8 +333,10 @@
         display: flex;
         flex-wrap: unset;
         gap: unset;
-        padding: 100px 15px 100px 15px;
+        padding-top: 100px;
+        padding-bottom: 100px;
         align-items: baseline;
+        width: unset;
     }
 
     .footer-logo-text-soc {

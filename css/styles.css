@@ -116,8 +116,11 @@ img {
     padding: 24px 24px 40px 40px;
     display: flex;
     flex-direction: column;
-    justify-content: space-between;
     overflow: auto;
+}
+
+.mob-address-soc {
+    margin-top: auto;
 }
 
 .close-menu-btn {
@@ -559,7 +562,8 @@ img {
     /*align-items: baseline;*/
     flex-wrap: wrap;
     gap: 72px;
-    padding: 97.5px 15px 96px 15px;
+    padding-top: 97.5px;
+    padding-bottom: 96px;
     justify-content: center;
 }
 
