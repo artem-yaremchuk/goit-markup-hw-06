@@ -63,12 +63,12 @@
     
     .header-menu-link:hover,
     .header-menu-link:focus {
-        color: #404BBF;
+        color: var(--hover-focus-color);
     }
     
     .current {
         position: relative;
-        color: #404bbf;
+        color: var(--hover-focus-color);
     }
     
     .current:after {
@@ -79,7 +79,7 @@
         width: 100%;
         height: 4px;
         border-radius: 2px;
-        background-color: #404BBF;
+        background-color: var(--hover-focus-color);
     }
     
     .header-address {
@@ -103,7 +103,7 @@
     
     .header-address-link:hover,
     .header-address-link:focus {
-        color: #404BBF;
+        color: var(--hover-focus-color);
     }
 
     .hero {
@@ -312,7 +312,6 @@
 
     .team-item {
         width: calc((100% - 72px)/4);
-        /*працює і без формули*/
     }
 
     .customers {
